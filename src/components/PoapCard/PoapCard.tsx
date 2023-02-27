@@ -30,7 +30,7 @@ export function PoapCard({ poap, poapsDone }: PoapCardProps) {
   return (
     <div>
       <div
-        className="border-2 border-poap-300 rounded-full p-2 h-28 w-28 flex justify-center items-center shadow-lg shadow-poap-100"
+        className="border-2 border-studentsBlue-100 rounded-full p-2 h-28 w-28 flex justify-center items-center shadow-lg shadow-studentsBlue-100"
         onClick={() => setIsOpenModal(true)}
       >
         {isAchieved ? (

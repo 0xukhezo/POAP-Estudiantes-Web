@@ -8,7 +8,7 @@
    height: 100px;
    border-top-left-radius: 110px;  
    border-top-right-radius: 110px; 
-   border: 10px solid #b5aeff;
+   border: 10px solid #0b4fa2;
    border-bottom: 0;
    top:100px;
    position: relative;
@@ -20,7 +20,7 @@
    height: 100px;
    border-top-left-radius: 110px;  
    border-top-right-radius: 110px; 
-   border: 10px solid #5e58a3;
+   border: 10px solid #32a2f1;
    border-bottom: 0;
    top:100px;
    right:100px;
@@ -29,5 +29,5 @@
 }
 
 #text-shadow{
- text-shadow: 2px 1px #5e58a3;
+ text-shadow: 2px 1px #58bcd9;
 }

@@ -60,7 +60,7 @@ export function PoapModal({ data, getOpenModal, isAchieved }: PoapModalProps) {
                       <>
                         <Dialog.Title
                           as="h3"
-                          className="text-lg font-medium leading-6 text-poap-400 mb-6"
+                          className="text-lg font-medium leading-6 text-studentsBlue-100 mb-6"
                         >
                           Achievement Unlock
                         </Dialog.Title>
@@ -89,9 +89,9 @@ export function PoapModal({ data, getOpenModal, isAchieved }: PoapModalProps) {
                       <>
                         <Dialog.Title
                           as="h3"
-                          className="text-lg font-medium leading-6 text-poap-400 mb-6"
+                          className="text-lg font-medium leading-6 text-studentsBlue-100 mb-6"
                         >
-                          Achievement Lock
+                          Achievement Locked
                         </Dialog.Title>
                         <img
                           src={data.image_url}
@@ -118,7 +118,7 @@ export function PoapModal({ data, getOpenModal, isAchieved }: PoapModalProps) {
                 <div className="mt-5 sm:mt-6 flex justify-center">
                   <button
                     type="button"
-                    className="inline-flex w-2/3 justify-center rounded-md border border-transparent bg-poap-400 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none  sm:text-sm"
+                    className="inline-flex w-2/3 justify-center rounded-md border border-transparent bg-studentsBlue-100 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none  sm:text-sm"
                     onClick={() => {
                       setOpen(false);
                       getOpenModal(false);

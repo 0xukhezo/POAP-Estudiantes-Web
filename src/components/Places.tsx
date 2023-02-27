@@ -73,15 +73,20 @@ export function Places() {
           </div>
         </div>
       ) : (
-        <div className="flex h-screen flex-col items-center bg-roadmap-200">
+        <div className="flex h-screen flex-col items-center bg-gray-100">
           <div className="overflow-auto pb-10 w-screen h-full bg-no-repeat text-center">
             <div className="flex flex-col items-center">
-              <h1
-                className="font-rubik text-4xl text-poap-100 mt-10"
-                id="text-shadow"
-              >
-                POAP <br></br> Estuadiantes
+              <h1 className="font-pathway text-4xl text-studentsBlue-200 mt-10">
+                POAP Osyssey
               </h1>
+              <h2 className="font-comforter text-4xl text-studentsBlue-100 mt-4">
+                el estu tour
+              </h2>
+              <div className="font-pathway text-xl text-studentsBlue-100 m-4 md:w-2/3">
+                POAP Odyssey 'el estu tour' es un juego donde coleccionas
+                momentos, vivencias y experiencias de la mano de tu equipo de
+                baloncesto, el Estu.
+              </div>
             </div>
             <div className="text-center">
               <div className="grid justify-items-center mb-10 ml-16">

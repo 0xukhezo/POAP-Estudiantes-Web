@@ -7,20 +7,17 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        poap: {
-          100: "#b5aeff",
-          200: "#ebc9f8",
-          300: "#d4c9f8",
-          400: "#9e85ef",
+        studentsBlue: {
+          100: "#32a2f1",
+          200: "#0b4fa2",
         },
-        roadmap: {
-          100: "#6E25D3",
-          200: "#f6f6fd",
-          300: "#5e58a3",
+        studentsYellow: {
+          100: "#f8ea04",
         },
       },
       fontFamily: {
-        rubik: ['"Rubik Mono One"'],
+        comforter: ['"Comforter Brush"'],
+        pathway: ['"Pathway Gothic One"'],
       },
     },
   },
