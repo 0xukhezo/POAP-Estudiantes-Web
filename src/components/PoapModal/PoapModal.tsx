@@ -118,7 +118,7 @@ export function PoapModal({ data, getOpenModal, isAchieved }: PoapModalProps) {
                 <div className="mt-5 sm:mt-6 flex justify-center">
                   <button
                     type="button"
-                    className="inline-flex w-2/3 justify-center rounded-md border border-transparent bg-studentsBlue-100 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none  sm:text-sm"
+                    className="inline-flex w-2/3 justify-center rounded-md border border-transparent bg-studentsBlue-100 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-studentsBlue-200 focus:outline-none  sm:text-sm"
                     onClick={() => {
                       setOpen(false);
                       getOpenModal(false);
