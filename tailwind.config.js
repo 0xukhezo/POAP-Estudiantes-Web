@@ -19,6 +19,9 @@ module.exports = {
         comforter: ['"Comforter Brush"'],
         pathway: ['"Pathway Gothic One"'],
       },
+      backgroundImage: {
+        hero: "url('../public/bg.jpg')",
+      },
     },
   },
   plugins: [],
