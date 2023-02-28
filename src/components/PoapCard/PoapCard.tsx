@@ -37,8 +37,8 @@ export function PoapCard({ poap, poapsDone }: PoapCardProps) {
           <img src={poap.image_url} className="h-24 w-24 rounded-full" />
         ) : (
           <img
-            src={poap.image_url}
-            className="h-24 w-24 opacity-30 rounded-full "
+            src="./lockedPoap.svg"
+            className="h-24 w-24 opacity-50 rounded-full "
           />
         )}
       </div>

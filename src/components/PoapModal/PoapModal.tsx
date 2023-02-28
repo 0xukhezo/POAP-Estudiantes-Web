@@ -94,7 +94,7 @@ export function PoapModal({ data, getOpenModal, isAchieved }: PoapModalProps) {
                           Achievement Locked
                         </Dialog.Title>
                         <img
-                          src={data.image_url}
+                          src="./lockedPoap.svg"
                           className="h-32 w-32 mx-auto mb-6 opacity-40"
                         />
                         <Dialog.Title
