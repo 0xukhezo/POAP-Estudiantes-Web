@@ -10,9 +10,9 @@ export const places = [
       "https://assets.poap.xyz/abonado-el-estu-poap-odyssey-2023-logo-1677588272822.gif",
     year: 2023,
     to_achive_text:
-      "To collect this POAP you must visit the POAP stand in Le Grand Palais at NFT Paris 2023.",
+      "Para poder coleccionar este POAP has de ser abonado, pertenecer a Socio Club o poseer el carnet #soydelestu",
     achived_text:
-      "Congrats! You´ve collected Grand Palais from the POAP Tour NFT Paris 2023. Keep collecting to complete the Tour.",
+      "Enhorabuena! Ya tienes el POAP que certifica que perteneces a Socio Club, eres abonado o tienes el carnet #soydelestu.",
   },
   {
     id: 106949,
@@ -25,9 +25,9 @@ export const places = [
       "https://assets.poap.xyz/visitante-el-estu-poap-odyssey-2023-logo-1677588496373.gif",
     year: 2023,
     to_achive_text:
-      "To collect this POAP you must visit the POAP stand in Notre Dame during NFT Paris 2023.",
+      "Visita nuestra sede Movistar Estudiantes, conoce nuestra historia y descubre todo lo que hacemos en el Estudiantes, para conseguir el POAP.",
     achived_text:
-      "Congrats! You´ve collected Notre Dame from the POAP Tour NFT Paris 2023. Keep collecting to complete the Tour.",
+      "Enhorabuena! Has visitado nuestra sede Movistar Estudiantes. ¿Qué te ha parecido nuestra evolución? Soprendente, ¿verdad?",
   },
   {
     id: 106952,
@@ -40,9 +40,9 @@ export const places = [
       "https://assets.poap.xyz/club-de-negocios-el-estu-poap-odyssey-2023-logo-1677588631740.gif",
     year: 2023,
     to_achive_text:
-      "To collect this POAP you must visit the POAP stand in Arc de Triomphe during NFT Paris 2023.",
+      "Participa en el programa de formación y negocio, Club de Negocios by Movistar Estudiantes y obtén tu POAP.",
     achived_text:
-      "Congrats! You´ve collected Arc de Triomphe from the POAP Tour NFT Paris 2023. Keep collecting to complete the Tour.",
+      "Enhorabuena, has finalizado con éxito el programa de formación: Club de Negocios by Movistar Estudiantes.",
   },
   {
     id: 106953,
@@ -55,9 +55,9 @@ export const places = [
       "https://assets.poap.xyz/jornada-22-el-estu-poap-odyssey-2023-logo-1677588729715.gif",
     year: 2023,
     to_achive_text:
-      "To collect this POAP you must visit the POAP stand in Sacré-Coeur during NFT Paris 2023.",
+      "Acude y disfruta del partido entre Movistar Estudiantes y el Valladolid el 4 de Marzo para poder coleccionar un POAP conmemorativo.",
     achived_text:
-      "Congrats! You´ve collected Sacré-Coeur from the POAP Tour NFT Paris 2023. Keep collecting to complete the Tour.",
+      "Este POAP certifica que estabas en el partido de la jornada 22 donde el Estudiantes se enfrentó al Valldolid.",
   },
   {
     id: 106954,
@@ -70,9 +70,9 @@ export const places = [
       "https://assets.poap.xyz/jornada-23-el-estu-poap-odyssey-2023-logo-1677588833993.gif",
     year: 2023,
     to_achive_text:
-      "To collect this POAP you must visit the POAP stand at the bottom of Tour Eiffel during NFT Paris 2023.",
+      "Acude y disfruta del partido entre Movistar Estudiantes y CD Almansa el 10 de Marzo para poder coleccionar un POAP conmemorativo.",
     achived_text:
-      "Congrats! You´ve collected Tour Eiffel from the POAP Tour NFT Paris 2023. Keep collecting to complete the Tour.",
+      "Este POAP certifica que estabas en el partido de la jornada 23 donde el Estudiantes se enfrentó al CD Almansa.",
   },
   {
     id: 106956,
@@ -85,8 +85,8 @@ export const places = [
       "https://assets.poap.xyz/jornada-24-el-estu-poap-odyssey-2023-logo-1677588924424.gif",
     year: 2023,
     to_achive_text:
-      "To collect this POAP you must visit the POAP stand in Champs Élysées during NFT Paris 2023.",
+      "Acude y disfruta del partido entre Movistar Estudiantes y Alimerka Oviedo el 17 de Marzo para poder coleccionar un POAP conmemorativo.",
     achived_text:
-      "Congrats! You´ve collected Champs Élysées from the POAP Tour NFT Paris 2023. Keep collecting to complete the Tour.",
+      "Este POAP certifica que estabas en el partido de la jornada 24 donde el Estudiantes se enfrentó al Alimerka Oviedo.",
   },
 ];

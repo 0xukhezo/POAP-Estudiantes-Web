@@ -9,7 +9,7 @@ import { Footer } from "./layout/Footer";
 export function Places() {
   const [data, setData] = useState<[]>();
   const [poapsDone, setPoapsDone] = useState<[]>();
-  let test: any = [];
+  let poapsComplet: any = [];
   const { query } = useRouter();
 
   const POAP_API: string = process.env.NEXT_PUBLIC_POAP_API
@@ -57,15 +57,15 @@ export function Places() {
         if (el.length === 0) {
           return;
         } else {
-          test.push(el);
+          poapsComplet.push(el);
         }
       }
     });
-    setPoapsDone(test.flat());
+    setPoapsDone(poapsComplet.flat());
   }, [data]);
 
   return (
-    <>
+    <div>
       {data?.length === 0 ? (
         <div className="flex h-screen justify-between flex-col items-center">
           <div className="mt-60 ">
@@ -73,8 +73,8 @@ export function Places() {
           </div>
         </div>
       ) : (
-        <div className="flex h-screen flex-col items-center bg-gray-100">
-          <div className="overflow-auto w-screen h-full bg-no-repeat text-center">
+        <div className="flex h-screen flex-col items-center bg-gradient-to-b from-gray-100 to-blue-500 ">
+          <div className="overflow-auto w-screen h-full text-center">
             <div className="flex flex-col items-center">
               <h1 className="font-pathway text-4xl text-studentsBlue-200 mt-10">
                 POAP Osyssey
@@ -88,10 +88,10 @@ export function Places() {
                 baloncesto, el Estu.
               </div>
             </div>
-            <div className="text-center pb-16">
-              <div className="grid justify-items-center ml-16">
+            <div className="text-center pb-16 bg-hero">
+              <div className="grid justify-items-center ml-16 ">
                 {places?.map((poap: any, index: number) => (
-                  <div className="-mt-4">
+                  <div className="-mt-4 ">
                     {index % 2 ? (
                       <div className="-mb-1.5">
                         <div id="roadmapRight" />
@@ -111,6 +111,6 @@ export function Places() {
           </div>
         </div>
       )}
-    </>
+    </div>
   );
 }

@@ -20,7 +20,7 @@ module.exports = {
         pathway: ['"Pathway Gothic One"'],
       },
       backgroundImage: {
-        hero: "url('../public/bg.jpg')",
+        hero: "url('../public/bg_big.svg')",
       },
     },
   },

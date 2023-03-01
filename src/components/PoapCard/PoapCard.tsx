@@ -30,7 +30,7 @@ export function PoapCard({ poap, poapsDone }: PoapCardProps) {
   return (
     <div>
       <div
-        className="border-2 border-studentsBlue-100 rounded-full p-2 h-28 w-28 flex justify-center items-center shadow-lg shadow-studentsBlue-100"
+        className="border-2 border-studentsBlue-100 rounded-full p-2 h-28 w-28 flex justify-center items-center shadow-lg shadow-studentsBlue-100 bg-white"
         onClick={() => setIsOpenModal(true)}
       >
         {isAchieved ? (
@@ -38,7 +38,7 @@ export function PoapCard({ poap, poapsDone }: PoapCardProps) {
         ) : (
           <img
             src="./lockedPoap.svg"
-            className="h-24 w-24 opacity-50 rounded-full "
+            className="h-24 w-24 rounded-full opacity-40"
           />
         )}
       </div>

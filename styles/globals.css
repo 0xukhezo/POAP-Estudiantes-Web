@@ -13,6 +13,7 @@
    top:100px;
    position: relative;
    rotate: 90deg;
+  
 }
 
 #roadmapLeft{
@@ -26,6 +27,7 @@
    right:100px;
    position: relative;
    rotate: 270deg;
+   
 }
 
 #text-shadow{
