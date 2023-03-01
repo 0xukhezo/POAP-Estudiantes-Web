@@ -62,7 +62,7 @@ export function PoapModal({ data, getOpenModal, isAchieved }: PoapModalProps) {
                           as="h3"
                           className="text-lg font-medium leading-6 text-studentsBlue-100 mb-6"
                         >
-                          Achievement Unlock
+                          Logro desbloqueado
                         </Dialog.Title>
                         <img
                           src={data.image_url}
@@ -91,7 +91,7 @@ export function PoapModal({ data, getOpenModal, isAchieved }: PoapModalProps) {
                           as="h3"
                           className="text-lg font-medium leading-6 text-studentsBlue-100 mb-6"
                         >
-                          Achievement Locked
+                          Logro bloqueado
                         </Dialog.Title>
                         <img
                           src="./lockedPoap.svg"
@@ -124,7 +124,7 @@ export function PoapModal({ data, getOpenModal, isAchieved }: PoapModalProps) {
                       getOpenModal(false);
                     }}
                   >
-                    Return
+                    Volver
                   </button>
                 </div>
               </Dialog.Panel>
