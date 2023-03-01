@@ -73,7 +73,7 @@ export function Places() {
           </div>
         </div>
       ) : (
-        <div className="flex h-screen flex-col items-center bg-gradient-to-b from-gray-100 to-blue-500 ">
+        <div className="flex h-screen flex-col items-center bg-gray-100">
           <div className="overflow-auto w-screen h-full text-center">
             <div className="flex flex-col items-center">
               <h1 className="font-pathway text-4xl text-studentsBlue-200 mt-10">
@@ -88,7 +88,7 @@ export function Places() {
                 baloncesto, el Estu.
               </div>
             </div>
-            <div className="text-center pb-16 bg-hero">
+            <div className="text-center pb-16">
               <div className="grid justify-items-center ml-16 ">
                 {places?.map((poap: any, index: number) => (
                   <div className="-mt-4 ">
